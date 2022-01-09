@@ -1,0 +1,39 @@
+
+
+header {
+    font-family: 'Lora', serif;
+    color: #6495ED; 
+}
+
+main {
+    background-color: #FAEBD7; 
+}
+
+nav ul li a:visited {
+    font-family: 'Helvetica', arial, sans-serif;    
+    color: #FAEBD7; 
+    
+}
+
+nav ul li a:active {
+    color: #DEB887;
+}
+
+nav ul li a:hover {
+    color: white; 
+    text-decoration: underline;
+}
+
+
+article a:visited {
+    color: black; 
+}
+
+article a:active {
+    color: #DEB887;
+}
+
+article a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
