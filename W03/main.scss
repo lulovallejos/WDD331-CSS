@@ -6,25 +6,23 @@ $colorTwo: #DEB887;
 header {
     font-family: 'Lora', serif;
     color: #6495ED; 
+    nav {
+        a:visited {
+            font-family: 'Helvetica', arial, sans-serif;    
+            color: $colorOne; 
+        }
+        a:active {
+            color: $colorTwo;
+        }
+        a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    }
 }
 
 main {
     background-color: $colorOne; 
-}
-
-nav ul li a:visited {
-    font-family: 'Helvetica', arial, sans-serif;    
-    color: $colorOne;  
-    
-}
-
-nav ul li a:active {
-    color: $colorTwo;
-}
-
-nav ul li a:hover {
-    color: white; 
-    text-decoration: underline;
 }
 
 
