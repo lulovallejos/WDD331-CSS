@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+$colorOne: #FAEBD7; 
+$colorTwo: #DEB887; 
+
 header {
     font-family: 'Lora', serif;
     color: #6495ED; 
 }
 
 main {
-    background-color: #FAEBD7; 
+    background-color: $colorOne; 
 }
 
 nav ul li a:visited {
     font-family: 'Helvetica', arial, sans-serif;    
-    color: #FAEBD7; 
+    color: $colorOne;  
     
 }
 
 nav ul li a:active {
-    color: #DEB887;
+    color: $colorTwo;
 }
 
 nav ul li a:hover {
@@ -30,7 +33,7 @@ article a:visited {
 }
 
 article a:active {
-    color: #DEB887;
+    color: $colorTwo; 
 }
 
 article a:hover {
